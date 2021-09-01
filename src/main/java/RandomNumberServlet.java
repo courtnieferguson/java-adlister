@@ -7,7 +7,7 @@ import java.io.IOException;
 @WebServlet(urlPatterns = "/random")
 public class RandomNumberServlet extends HttpServlet {
 
-    protected void doGet(HttpServletResponse response, HttpServletRequest request) throws IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
             int min = 50;
             int max = 100;
