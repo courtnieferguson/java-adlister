@@ -1,3 +1,4 @@
+
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -10,13 +11,14 @@ import java.io.PrintWriter;
 public class HelloWorldServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-    response.setContentType("text/html");
+        response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         String name = request.getParameter("name");
 
         if (name == null) {
             out.println("hello, world");
         }
+
     }
 
 }
