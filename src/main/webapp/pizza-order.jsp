@@ -11,6 +11,33 @@
     <title>Title</title>
 </head>
 <body>
+<form method="POST" action="/pizza-order">
 
+    <select name="crust_type">
+        <option value="rising">rising</option>
+        <option value="thin" >thin</option>
+<option value="stuffed"
+    </select>
+
+    <select name="sauce type"
+            tomato
+            alfredo
+            buffalo
+            bbq
+</select>
+
+    <select name="size">
+        small
+        medium
+        large
+
+    </select>
+</form>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password">
+        <br>
+
+        <input type="submit">
+</form>
 </body>
 </html>
